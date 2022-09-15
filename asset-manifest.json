@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.97841b8e.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/portfolio/static/css/main.e9db7777.css",
+    "main.js": "/portfolio/static/js/main.8ca1123c.js",
+    "static/media/Kimaye.png": "/portfolio/static/media/Kimaye.7e82a5d945e238539099.png",
+    "static/media/MaxFashion.png": "/portfolio/static/media/MaxFashion.9de943f2b24c34d9d4b3.png",
+    "static/media/abhay.jpg": "/portfolio/static/media/abhay.3311eab1ea6286ec0404.jpg",
+    "static/media/Buffer.png": "/portfolio/static/media/Buffer.bdac313a13066055df72.png",
+    "static/media/reactlogo.png": "/portfolio/static/media/reactlogo.81ed438b18e24116794d.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.7a16fc61d457c9e340e2.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.8e341cc00e4ec40c6a27.png",
     "index.html": "/portfolio/index.html",
-    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.97841b8e.js.map": "/portfolio/static/js/main.97841b8e.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.e9db7777.css.map": "/portfolio/static/css/main.e9db7777.css.map",
+    "main.8ca1123c.js.map": "/portfolio/static/js/main.8ca1123c.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.97841b8e.js"
+    "static/css/main.e9db7777.css",
+    "static/js/main.8ca1123c.js"
   ]
 }
