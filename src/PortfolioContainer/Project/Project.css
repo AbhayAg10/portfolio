@@ -1,0 +1,170 @@
+.project-container{
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-header{
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.project-header h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.project-header p{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.header-underline{
+    height: 3px;
+    width: 200px;
+    background-color: rgb(102, 13, 13);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-underline1{
+    height: 9px;
+    width: 40px;
+    background-color: rgb(255, 7, 7);
+    position: absolute;
+    border-radius: 5px;
+}
+
+.projectDetails{
+    background-image: grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 2;
+}
+.projectCard{
+    height: fit-content;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'roboto', sans-serif;
+}
+
+.project-card{
+    margin: 10px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 600px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.project-card > *:not(img,span){
+    padding: 45px 10px 5px 10px;
+}
+.project-card img {
+    width: 100%;
+}
+.card-body{
+    position: relative;
+    background: #fafafa;
+    
+}
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+}
+  
+.card-body > .projectName{
+    font-size: 22px;
+    text-align: left;
+    font-weight: 600;
+}
+.projectName{
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.projectLinks{
+    padding: 20px 0;
+}
+.projectLinks .projectbtn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-align: center;
+    display:inline-block;
+}
+
+.projectLinks .projectbtn2{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 1px solid #28a745;
+    text-align: center;
+    color: #28a745;
+    border-radius: 3px;
+    margin-left: -2px;
+}
+
+.projectLinks .projectbtn1:hover{
+    background-color: rgb(4, 95, 221);
+}
+.projectLinks .projectbtn2:hover{
+    color: rgb(4, 95, 221);
+    border: 1px solid rgb(4, 95, 221);
+}
+.contentProject{
+    padding-top: 20px;
+    color: #3d3d3d;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+}
+.techStack{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.techStack p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.techStack img{
+    width: 55px;
+    /* height: 35px; */
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 480px){
+   
+    .project-card{
+        margin: 15px 00px;
+    }
+    
+    .projectLinks .projectbtn1, .projectLinks .projectbtn2{
+        padding: 8px 15px;
+    }
+    .techStack img{
+        width: 32px;
+    }
+}
