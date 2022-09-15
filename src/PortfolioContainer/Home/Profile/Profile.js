@@ -38,8 +38,8 @@ export default function Profile() {
                                 1500,
                                 "Full Stack Web Developer 🖥",
                                 1500,   
-                                "Enthusiastic Dev 🔴",
-                                1500,
+                                // "Enthusiastic Dev 🔴",
+                                // 1500,
                             ]}
                         />
                         </h1>
