@@ -1,6 +1,7 @@
 import React from 'react'
 import Typical from 'react-typical';
 import "./Profile.css";
+import Resume from "../../../assets/Abhay_Agrawal_Resume.pdf";
 
 export default function Profile() {
   return (
@@ -15,7 +16,7 @@ export default function Profile() {
                         <a href="https://www.linkedin.com/feed/" target="_blank">
                             <i className="fa fa-linkedin" aria-hidden="true"></i>
                         </a>    
-                        <a href="mailto:abhaytalkin@gmail.com"  target="blank">
+                        <a href="mailto: abhaytalkin@gmail.com"  target="blank">
                         <i className="fa fa-google" aria-hidden="true"></i>
                         </a>
                         <a href="tel:+917415630406" target="_blank">
@@ -38,8 +39,6 @@ export default function Profile() {
                                 1500,
                                 "Full Stack Web Developer 🖥",
                                 1500,   
-                                // "Enthusiastic Dev 🔴",
-                                // 1500,
                             ]}
                         />
                         </h1>
@@ -49,7 +48,7 @@ export default function Profile() {
                     </span>
                 </div>
                 <div className="profile-optins">
-                    <a href="https://drive.google.com/file/d/1izB_fVGdD56lX2V2HHG26xon0-FXoj28/view?usp=sharing" target="_blank" download="resume.pdf" >
+                    <a href={Resume} target="_blank" download="Abhay_Agrawal_Resume" >
                         <button className='resumeButton'>Get Resume</button>
                     </a>
                 </div>

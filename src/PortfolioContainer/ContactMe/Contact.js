@@ -4,6 +4,7 @@ import "./Contact.css";
 import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { useState } from "react";
+import Calendar from "../GithubCalender/Calender";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -39,6 +40,7 @@ export default function Contact() {
   return (
     <div className="contact-container" id="Contact">
       <div className="contact-header">
+      <Calendar />
         <h3>Contact Me</h3>
         <p>Let's Keep In Touch</p>
         <span className="header-underline">

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./About.css";
 // import profilePic from "../../assets/profilephoto1.jpg"
+import Resume from "../../assets/Abhay_Agrawal_Resume.pdf";
 
 export default function About() {
     
@@ -37,7 +38,7 @@ export default function About() {
                         </ul>
                     </div>
                     <div className="profile-optins resumeBtn">
-                        <a href="https://drive.google.com/file/d/1izB_fVGdD56lX2V2HHG26xon0-FXoj28/view?usp=sharing" target="_blank" download="resume.pdf">
+                        <a href={Resume} download="Abhay_Agrawal_Resume.pdf">
                             <button className='resumeButton2'>Get Resume</button>
                         </a>
                     </div>
