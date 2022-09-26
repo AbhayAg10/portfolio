@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e9db7777.css",
-    "main.js": "/portfolio/static/js/main.94202ef1.js",
+    "main.js": "/portfolio/static/js/main.9a756480.js",
     "static/media/Kimaye.png": "/portfolio/static/media/Kimaye.7e82a5d945e238539099.png",
     "static/media/MaxFashion.png": "/portfolio/static/media/MaxFashion.9de943f2b24c34d9d4b3.png",
     "static/media/abhay.jpg": "/portfolio/static/media/abhay.3311eab1ea6286ec0404.jpg",
     "static/media/Buffer.png": "/portfolio/static/media/Buffer.bdac313a13066055df72.png",
     "static/media/reactlogo.png": "/portfolio/static/media/reactlogo.81ed438b18e24116794d.png",
+    "static/media/Abhay_Agrawal_Resume.pdf": "/portfolio/static/media/Abhay_Agrawal_Resume.a24a429bca982d78dd23.pdf",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.7a16fc61d457c9e340e2.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.8e341cc00e4ec40c6a27.png",
     "index.html": "/portfolio/index.html",
     "main.e9db7777.css.map": "/portfolio/static/css/main.e9db7777.css.map",
-    "main.94202ef1.js.map": "/portfolio/static/js/main.94202ef1.js.map"
+    "main.9a756480.js.map": "/portfolio/static/js/main.9a756480.js.map"
   },
   "entrypoints": [
     "static/css/main.e9db7777.css",
-    "static/js/main.94202ef1.js"
+    "static/js/main.9a756480.js"
   ]
 }
