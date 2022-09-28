@@ -78,7 +78,7 @@ export default function Project() {
                    I worked on building this project solely with time constraint of 4 days and i built Dashboard,Login and Signup page.
                 </div>
                 <div className='projectLinks'>
-                    <a className='projectbtn1' href="https://github.com/AbhayAg10/unadvised-advertisement-6513/tree/main/rct101-project-buffer" target='_blank'><AiOutlineGithub /> GitHub</a>
+                    <a className='projectbtn1' href="https://github.com/AbhayAg10/Buffer-Website-Clone/tree/main/rct101-project-buffer" target='_blank'><AiOutlineGithub /> GitHub</a>
                     <a className='projectbtn2' href="https://rct101-project-buffer.vercel.app/" target='_blank'>Demo <TbExternalLink/></a>
                 </div>
             </div>
