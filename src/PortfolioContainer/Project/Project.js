@@ -90,7 +90,7 @@ export default function Project() {
             <img src={maxfashion} alt="" />
             <div className='card-body'>
                 <div class="badge">Frontend</div>
-                <div className='projectName'>Sugercosmetic clone</div>
+                <div className='projectName'>MaxFashion clone</div>
                 <div className='techStack'>
                     <img src={html5}/>
                     <img src={css3}/>

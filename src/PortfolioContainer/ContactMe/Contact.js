@@ -1,41 +1,41 @@
 import React from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import { useState } from "react";
+// import { useState } from "react";
 import Calendar from "../GithubCalender/Calender";
 
 export default function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [subject, setSubject] = useState("");
+  // const [message, setMessage] = useState("");
 
-  var templateParams = {
-    name: name,
-    email: email,
-    subject: subject,
-    message: message,
-  };
+  // var templateParams = {
+  //   name: name,
+  //   email: email,
+  //   subject: subject,
+  //   message: message,
+  // };
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
     
-    emailjs.send('service_rn02dwu', 'template_0axsrhn', templateParams,'O8hyd5yOHHItAfktQ')
-            .then((response) => {
-                console.log('SUCCESS!', response.status, response.text);
-                alert('Message sent successfully');
-                setMessage('');
-                setName('');
-                setEmail('');
-                setSubject('');
-                e.target.reset();
-            },(error) => {
-                console.log('FAILED...', error);
-                alert('Some technical error');
-            });
-  };
+  //   emailjs.send('service_rn02dwu', 'template_0axsrhn', templateParams,'O8hyd5yOHHItAfktQ')
+  //           .then((response) => {
+  //               console.log('SUCCESS!', response.status, response.text);
+  //               alert('Message sent successfully');
+  //               setMessage('');
+  //               setName('');
+  //               setEmail('');
+  //               setSubject('');
+  //               e.target.reset();
+  //           },(error) => {
+  //               console.log('FAILED...', error);
+  //               alert('Some technical error');
+  //           });
+  // };
 
   return (
     <div className="contact-container" id="Contact">
@@ -83,7 +83,7 @@ export default function Contact() {
               </p>
             </div>
           </div>
-          <form onSubmit={sendEmail}>
+          {/* <form onSubmit={sendEmail}>
             <div className="formInput">
               <div className="leftForm">
                 <div className="rows">
@@ -143,7 +143,7 @@ export default function Contact() {
                 <button type="submit" value="Submit">Send Message</button>
               </div>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>
