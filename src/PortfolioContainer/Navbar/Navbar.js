@@ -73,7 +73,11 @@ export default function Navbar() {
                     <Link to="Skills" spy={true} smooth={true} offset={0} duration={500}>
                         Skills
                     </Link>
-                 
+
+                    <a id="nav_resume" href="https://drive.google.com/file/d/1izB_fVGdD56lX2V2HHG26xon0-FXoj28/view?usp=sharing" target="blank">
+                        Resume
+                    </a>
+
                     <Link to="Contact" spy={true} smooth={true} offset={0} duration={500}>
                         Contact
                     </Link>
@@ -98,7 +102,11 @@ export default function Navbar() {
                     <Link to="Skills" spy={true} smooth={true} offset={0} duration={500}>
                         Skills
                     </Link>
-                 
+
+                    <a id="nav_resume" href="https://drive.google.com/file/d/1izB_fVGdD56lX2V2HHG26xon0-FXoj28/view?usp=sharing" target="blank">
+                        Resume
+                    </a>
+
                     <Link to="Contact" spy={true} smooth={true} offset={0} duration={500}>
                         Contact
                     </Link>

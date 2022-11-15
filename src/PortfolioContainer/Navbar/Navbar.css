@@ -85,6 +85,12 @@
     color: rgb(246, 243, 243);
     cursor: pointer;
 }
+
+#nav_resume{
+    text-decoration:none;
+    color:white
+}
+
 .navMenuBarMain{
     display: flex;
     align-items: center;
