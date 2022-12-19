@@ -3,6 +3,7 @@ import './Project.css';
 import Buffer from '../../assets/Buffer.png';
 import maxfashion from '../../assets/MaxFashion.png';
 import Kimaye from '../../assets/Kimaye.png';
+import AppleTv from '../../assets/appletv.png';
 // import hibernateImg from '../../assets/hibernate.svg';
 // import javaImg from '../../assets/java-icon.svg';
 // import springImg from '../../assets/spring.png';
@@ -14,6 +15,8 @@ import html5 from '../../assets/icons8-html-5-144.png';
 import css3 from '../../assets/icons8-css3-144.png';
 import js from '../../assets/icons8-javascript-144.png';
 import Reactlogo from '../../assets/reactlogo.png';
+import mongo from '../../assets/mongodb.png';
+import node from '../../assets/nodejs.png';
 
 export default function Project() {
     // const [counter, setCounter] = useState(0);
@@ -41,7 +44,30 @@ export default function Project() {
     <div className="projectDetails">
         <div className="projectCard">
 
-        {/* card 1 */}
+            {/* card 1 */}
+        <div className="project-card">
+            <img src={AppleTv} alt="" />
+            <div className='card-body'>
+                <div class="badge">FullStack App</div>
+                <div className='projectName'>AppleTv Clone</div>
+                <div className='techStack'>
+                    <img src={js}/>
+                    <img src={html5}/>
+                    <img src={css3}/>
+                    <img src={Reactlogo}/>
+                    <img src={mongo}/>
+                    <img src={node}/>
+                </div>
+                <div className="contentProject">
+                Apple tv clone is a clone of a Over The Top platform. Apple TV+ is streeming service from the Appple. It features execlusive apple Original Showes and movies from some of the industry talent, with new premiers arriving each month. We as a team of five people, cloned it within a time span of five days with frontend and backend technologies with some of its basic functionalities.
+                </div>
+                <div className='projectLinks'>
+                    <a className='projectbtn1' href="https://github.com/Shubham0442/scintillating-work-864" target='_blank'><AiOutlineGithub /> GitHub</a>
+                    <a className='projectbtn2' href="appletvclone.netlify.app/" target='_blank'>Demo <TbExternalLink/></a>
+                </div>
+            </div>
+        </div>
+        {/* card 2 */}
         <div className="project-card">
             <img src={Kimaye} alt="" />
             <div className='card-body'>
@@ -61,7 +87,7 @@ export default function Project() {
                 </div>
             </div>
         </div>
-        {/* card 2 */}
+        {/* card 3 */}
         <div className="project-card">
             <img src={Buffer} alt="" />
             <div className='card-body'>
@@ -85,7 +111,7 @@ export default function Project() {
         </div>
 
 
-        {/* card 3 */}
+        {/* card 4 */}
         <div className="project-card">
             <img src={maxfashion} alt="" />
             <div className='card-body'>
