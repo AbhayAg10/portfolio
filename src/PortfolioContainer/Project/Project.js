@@ -63,7 +63,7 @@ export default function Project() {
                 </div>
                 <div className='projectLinks'>
                     <a className='projectbtn1' href="https://github.com/Shubham0442/scintillating-work-864" target='_blank'><AiOutlineGithub /> GitHub</a>
-                    <a className='projectbtn2' href="appletvclone.netlify.app/" target='_blank'>Demo <TbExternalLink/></a>
+                    <a className='projectbtn2' href="https://appletvclone.netlify.app/" target='_blank'>Demo <TbExternalLink/></a>
                 </div>
             </div>
         </div>
