@@ -1,6 +1,7 @@
 import React from 'react'
 import Typical from 'react-typical';
 import "./Profile.css";
+// import Resume from "../../../assets/Abhay_Agrawal_Resume1.pdf";
 import Resume from "../../../assets/Abhay_Agrawal_Resume.pdf";
 
 export default function Profile() {
